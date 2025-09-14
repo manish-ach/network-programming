@@ -34,7 +34,6 @@ public class ServerSoc {
                     break;
                 }
             }
-
             clientSocket.close();
         } catch (Exception e) {
             e.printStackTrace();
