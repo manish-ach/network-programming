@@ -11,6 +11,7 @@ public class ServerSoc {
 
         try(ServerSocket serverSocket = new ServerSocket(port)) {
             Socket clientSocket = serverSocket.accept();
+            
 
             DataInputStream in = new DataInputStream(clientSocket.getInputStream());
             DataOutputStream out = new DataOutputStream(clientSocket.getOutputStream());

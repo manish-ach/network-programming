@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/basic-socket-tcp.iml" filepath="$PROJECT_DIR$/basic-socket-tcp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic-socket-udp.iml" filepath="$PROJECT_DIR$/basic-socket-udp.iml" />
     </modules>
   </component>
 </project>

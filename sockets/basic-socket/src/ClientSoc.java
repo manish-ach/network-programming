@@ -1,4 +1,5 @@
 import java.io.*;
+import java.net.InetAddress;
 import java.net.Socket;
 import java.util.Scanner;
 
@@ -12,6 +13,9 @@ public class ClientSoc {
         try(Socket socket = new Socket(host, port)) {
             DataInputStream in = new DataInputStream(socket.getInputStream());
             DataOutputStream out = new DataOutputStream(socket.getOutputStream());
+
+            InetAddress ia = InetAddress.getLocalHost();
+            System.out.println("localhost :- " + ia);
 
             while (true) {
                 String response = in.readUTF();
