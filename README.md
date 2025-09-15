@@ -4,7 +4,9 @@ Collection of Network programming codes. For learning purposes.
 
 ## Contents
 
-- **basic-socket/** – Simple client-server socket examples in Java.  
+- Sockets
+    - **basic-socket-tcp** – Simple client-server TCP socket in Java.  
+    - **basic-socket-udp** – Simple client-server UDP socket in Java.  
 
 
 ## Learning Goals
