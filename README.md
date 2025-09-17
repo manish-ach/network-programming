@@ -4,9 +4,12 @@ Collection of Network programming codes. For learning purposes.
 
 ## Contents
 
-- Sockets
+- **Sockets**
     - **basic-socket-tcp** – Simple client-server TCP socket in Java.  
     - **basic-socket-udp** – Simple client-server UDP socket in Java.  
+    - **multi-threaded-pooled-tcp** – Multi threaded TCP connection
+
+- **local-chat-app** – chat app employing threaded TCP connection
 
 
 ## Learning Goals
